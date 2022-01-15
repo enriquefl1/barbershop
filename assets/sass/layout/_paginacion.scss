@@ -1,0 +1,18 @@
+.paginacion-section {
+    height: 156px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $platinum;
+
+}
+
+.page-item:first-child .page-link {
+    border-top-left-radius: 1.25rem;
+    border-bottom-left-radius: 1.25rem;
+}
+.page-item:last-child .page-link {
+    border-top-right-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+}

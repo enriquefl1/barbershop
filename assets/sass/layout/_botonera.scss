@@ -1,0 +1,31 @@
+.botonera-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: auto;
+
+    @media screen and (min-width: 768px) {
+        justify-content: left;
+    }
+}
+
+.boton {
+    color: $white;
+    background: $nickel;
+    border-radius: 50px;
+    margin: 0 1rem;
+
+    &__small {
+        width:115px;
+    } 
+
+    &__medium {
+        width:182px;
+    }
+
+    &:hover {
+        background-color:$light-gray;
+    }
+
+}

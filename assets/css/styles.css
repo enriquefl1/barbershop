@@ -1,0 +1,192 @@
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Playfair Display";
+  color: #fff;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.nav-section {
+  background-color: #121619;
+  height: 96px;
+}
+@media screen and (min-width: 768px) {
+  .nav-section {
+    padding: 0 130px;
+  }
+}
+.nav-section__logo {
+  width: 81px;
+  height: 34px;
+}
+@media screen and (min-width: 768px) {
+  .nav-section__logo {
+    width: 79px;
+    height: 46px;
+  }
+}
+.nav-section__izq {
+  justify-content: end;
+}
+
+.header-section {
+  height: 640px;
+  width: auto;
+  background-image: url("../images/post-image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .header-section {
+    height: 703px;
+  }
+}
+.header-section__parrafo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85%;
+}
+.header-section__flecha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15%;
+}
+
+.chevron {
+  color: #fff;
+}
+
+.main-description {
+  justify-content: center;
+  padding: 0 50px;
+}
+.main-description__fecha {
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-weight: 400;
+  padding: 1.5rem 0 0 0;
+}
+.main-description__parrafo {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0.5rem 0 0 0;
+}
+
+.botonera-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: auto;
+}
+@media screen and (min-width: 768px) {
+  .botonera-section {
+    justify-content: left;
+  }
+}
+
+.boton {
+  color: #fff;
+  background: #6c6e70;
+  border-radius: 50px;
+  margin: 0 1rem;
+}
+.boton__small {
+  width: 115px;
+}
+.boton__medium {
+  width: 182px;
+}
+.boton:hover {
+  background-color: #d1d1d1;
+}
+
+.tarjeta-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 400px;
+  border: 0;
+}
+@media screen and (min-width: 768px) {
+  .tarjeta-section {
+    display: flex;
+    flex-direction: row;
+    padding: 0 3rem;
+  }
+}
+.tarjeta-section__img {
+  border-radius: 160px;
+}
+.tarjeta-section__titulo {
+  text-align: center;
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 900;
+}
+.tarjeta-section__descripcion {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 300;
+  color: #d76c69;
+}
+
+.paginacion-section {
+  height: 156px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e7e7;
+}
+
+.page-item:first-child .page-link {
+  border-top-left-radius: 1.25rem;
+  border-bottom-left-radius: 1.25rem;
+}
+
+.page-item:last-child .page-link {
+  border-top-right-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 206px;
+}
+@media screen and (min-width: 768px) {
+  .footer-section {
+    height: 199px;
+  }
+}
+.footer-section__logo {
+  width: 81px;
+  height: auto;
+}
+@media screen and (min-width: 768px) {
+  .footer-section__logo {
+    width: 122px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

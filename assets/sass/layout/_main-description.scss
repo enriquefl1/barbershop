@@ -1,0 +1,18 @@
+.main-description {
+    justify-content: center;
+    padding: 0 50px;
+
+    &__fecha {
+        font-family: $playfair;
+        font-size: $medium;
+        font-weight: $regular;
+        padding: 1.5rem 0 0 0;
+    }
+
+    &__parrafo {
+        font-family: $roboto;
+        font-size: $medium;
+        font-weight: $light;
+        padding: 0.5rem 0 0 0;    
+    }
+}
