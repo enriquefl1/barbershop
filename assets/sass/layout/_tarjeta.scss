@@ -5,7 +5,13 @@
     width: auto;
     height: 400px;
     border : 0; // para borrar el border de Card
+    text-align: center;
 
+    font-family: $playfair;
+    font-size: $x-large;
+    font-weight: $black;
+    font-style: $italic;
+    // Para pantallas sobre 768 cambia a flex-direction row
     @media screen and (min-width: 768px) {
         display: flex;
         flex-direction: row; 
@@ -15,22 +21,12 @@
     &__img {
         border-radius: 160px;
     }
-    
-    &__titulo {
-        text-align: center;
-        font-family: $playfair;
-        font-style: $italic;
-        font-size: $x-large;
-        font-weight: $black;
-    }
+}
 
-    &__descripcion {
-        text-align:center;
-        font-family: $roboto;
-        font-style: $normal;
-        font-size: $medium;
-        font-weight: $light;
-        color: $ruddy-pink;
-    }
-
+.tarjeta-section--red {
+    font-family: $roboto;
+    font-size: $medium;
+    font-weight: $light;
+    font-style: $normal;
+    color: $ruddy-pink;
 }
